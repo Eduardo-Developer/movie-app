@@ -91,4 +91,6 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp")
     implementation("com.squareup.okhttp3:logging-interceptor")
 
+    implementation("com.github.Ferfalk:SimpleSearchView:0.2.1")
+
 }

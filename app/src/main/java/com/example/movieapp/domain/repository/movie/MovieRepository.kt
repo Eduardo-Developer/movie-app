@@ -7,4 +7,5 @@ interface MovieRepository {
 
     suspend fun getGenres(apiKey: String, language: String?): GenresResponse
     suspend fun getMovieByGenre(apiKey: String, language: String?, genreId: Int?): List<MovieResponse>
+    suspend fun searchMovies(apiKey: String, language: String?, query: String?): List<MovieResponse>
 }

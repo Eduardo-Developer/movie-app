@@ -41,13 +41,13 @@
 
     <style name="SearchViewTheme">
         <item name="colorSecondary">#212121</item>
-<!--        <item name="searchBackground">@color/white</item>-->
+        <item name="searchBackground">@color/white</item>
         <item name="android:inputType">text</item>
-<!--        <item name="android:hint">@string/search_hint</item>-->
-<!--        <item name="hintColor">#33212121</item>-->
-<!--        <item name="backIconTint">#212121</item>-->
+        <item name="android:hint">@string/text_hint_search_movie_fragment</item>
+        <item name="hintColor">#33212121</item>
+        <item name="backIconTint">#212121</item>
         <item name="android:textColor">#212121</item>
-<!--        <item name="iconsTint">#212121</item>-->
+        <item name="iconsTint">#212121</item>
     </style>
 
     <style name="CustomTabLayout" parent="Theme.MaterialComponents.DayNight.NoActionBar">

@@ -19,4 +19,11 @@ interface ServiceApi {
         @Query("language") language: String?,
         @Query("with_genres") genreId: Int?,
     ): BasePaginatorRemote<List<MovieResponse>>
+
+    @GET("search/movie")
+    suspend fun searchMovies(
+        @Query("api_key") apiKey: String,
+        @Query("language") language: String?,
+        @Query("query") query: String?,
+    ): BasePaginatorRemote<List<MovieResponse>>
 }
